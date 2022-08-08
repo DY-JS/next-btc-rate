@@ -1,0 +1,10 @@
+.layout {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+    background: linear-gradient(to bottom, #4e54c8, #8f94fb);
+    color: #FFF;
+}
