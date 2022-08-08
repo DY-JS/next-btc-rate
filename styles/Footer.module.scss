@@ -1,23 +1,21 @@
+@import './mixins.scss';
+
 .footer {
-    width: 100%;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  @include flex-center-column;
   margin: 0;
   padding: 0;
 
   & > ul {
-        width: 250px;
-        margin: 0 auto;
-        list-style: none;
-        display: flex;
-        justify-content: space-between;
-        transform: translateX(-10%);
+    width: 250px;
+    margin: 0 auto;
+    list-style: none;
+    @include flex-between;
+    transform: translateX(-10%);
   }
 
   & > h3 {
     text-align: center;
   }
-
 }
