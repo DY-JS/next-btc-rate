@@ -10,7 +10,7 @@ export default function Error() {
         src={errorImg}
         width={360}
         height={360}
-        alt="Logo"
+        alt="404"
         placeholder="blur"
       />
     </div>
